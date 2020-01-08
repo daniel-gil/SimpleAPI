@@ -36,7 +36,8 @@ namespace SimpleAPI
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            // HTTP redirection
+            app.UseHttpsRedirection(); 
 
             app.UseRouting();
 
